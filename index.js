@@ -2,7 +2,7 @@ const { fetchMyIP, fetchCoordsByIP, fetchISSFlyOverTimes } = require('./iss');
 
 // fetchMyIP((error, ip) => {
 //   if (error) {
-//     console.log("It didn't work!\n" , error);
+//     console.log('Error' , error.message);
 //     return;
 //   }
 //   console.log('It worked! Returned IP:' , ip);
